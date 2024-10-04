@@ -1,6 +1,7 @@
 import React from 'react'
 
-function Weather() {
+const Weather = ({data}) =>{
+
   return (
     <div>Weather</div>
   )

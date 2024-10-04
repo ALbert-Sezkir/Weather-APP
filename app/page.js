@@ -1,9 +1,9 @@
 'use client'
 
 import Image from "next/image";
-import axios from "axios";
 import { useState } from "react"; 
 import { BsSearch } from 'react-icons/bs';
+import axios from 'axios'; 
 import Weather from "./components/Weather";
 
 
@@ -15,6 +15,7 @@ export default function Home() {
   const [loading, setLoading] = useState(false);  
   
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${process.env.NEXT_PUBLIC_API_KEY}`;
+
  
   const fetchWeather = async (e) => { 
     e.preventDefault();
