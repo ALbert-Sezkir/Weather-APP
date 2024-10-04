@@ -5,6 +5,7 @@ import { useState } from "react";
 import { BsSearch } from 'react-icons/bs';
 import axios from 'axios'; 
 import Weather from "./components/Weather";
+import Loader from './components/Loader';
 
 
 
@@ -26,7 +27,12 @@ export default function Home() {
     setCity('');
     setLoading(false); 
   }
-  
+
+  if(loading) {
+    return <Loader />
+  }
+  else {
+ 
   return (
     <div>
       {/* Overlay */}
@@ -61,4 +67,6 @@ export default function Home() {
       {weather.main && <Weather data={weather} />}
     </div>
   );
+
+}
 }
