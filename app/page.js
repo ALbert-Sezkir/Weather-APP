@@ -58,6 +58,7 @@ export default function Home() {
             />
           </div>
           <button onClick={fetchWeather}>
+            
             <BsSearch size={20} />
           </button>
         </form>
