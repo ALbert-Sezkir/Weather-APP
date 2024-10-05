@@ -39,7 +39,7 @@ npm run
 
 5. To use the OpenWeatherMap API, you will need an API key. Follow these steps to obtain one:
 Sign up at OpenWeatherMap.
-Add your API key to your environment variables. Create a .env.local file in the root of your project and add the following line:
-NEXT_PUBLIC_API_KEY=your_api_key_here
+Add your API key_KEY=your_api_key_here
 
- Vercel hosting visit website directlly: 
+### Vercel hosting 
+Visit website directly at:  
