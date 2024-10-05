@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 
 const Weather = ({ data }) => {
-  console.log('Weather data:', data)
+  
 
   const { dt, name, main, wind, weather: weatherInfo } = data;
   const iconUrl = `http://openweathermap.org/img/wn/${weatherInfo[0].icon}@2x.png`;
