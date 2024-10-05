@@ -42,4 +42,4 @@ Sign up at OpenWeatherMap.
 Add your API key_KEY=your_api_key_here
 
 ### Vercel hosting 
-Visit website directly at:  
+Visit website directly at: https://weather-app-three-dun-15.vercel.app/
