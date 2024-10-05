@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Weather App
+
+Welcome to the My Weather App! This is a simple yet powerful weather application built with **Next.js** and **Tailwind CSS**. The application allows users to search for weather information for any city, providing real-time data fetched from the OpenWeatherMap API using Axios.
+
+## Features
+
+- **Responsive Design**: Utilizes Tailwind CSS for a mobile-first and responsive layout.
+- **Real-Time Weather Data**: Fetches current weather data from the OpenWeatherMap API.
+- **User-Friendly Interface**: Simple search functionality with auto-suggestions.
+
+## Technologies Used
+
+- **Next.js**: A React framework for server-side rendering and generating static websites.
+- **Tailwind CSS**: A utility-first CSS framework for designing custom user interfaces.
+- **Axios**: A promise-based HTTP client for making API requests.
 
 ## Getting Started
 
-First, run the development server:
+To get started with the project, follow these steps:
 
-```bash
+### Prerequisites
+
+Make sure you have [Node.js](https://nodejs.org/en/) installed on your machine.
+
+### Installation
+
+1. **Clone the repository**:
+   git clone https://github.com/yourusername/my-weather-app.git
+
+2. Navigate into the project directory:
+   cd into the folder: my-weather-app
+   
+3. Install the dependencies:
+   npm install
+  
+4. Running the Application
+To start the development server, run:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5.To use the OpenWeatherMap API, you will need an API key. Follow these steps to obtain one:
+Sign up at OpenWeatherMap.
+Add your API key to your environment variables. Create a .env.local file in the root of your project and add the following line:
+NEXT_PUBLIC_API_KEY=your_api_key_here
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Vercel hosting visit website directlly: 
