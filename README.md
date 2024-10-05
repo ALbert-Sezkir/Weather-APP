@@ -35,9 +35,9 @@ Make sure you have [Node.js](https://nodejs.org/en/) installed on your machine.
   
 4. Running the Application
 To start the development server, run:
-npm run dev
+npm run
 
-5.To use the OpenWeatherMap API, you will need an API key. Follow these steps to obtain one:
+5. To use the OpenWeatherMap API, you will need an API key. Follow these steps to obtain one:
 Sign up at OpenWeatherMap.
 Add your API key to your environment variables. Create a .env.local file in the root of your project and add the following line:
 NEXT_PUBLIC_API_KEY=your_api_key_here
